@@ -1,0 +1,37 @@
+.text-ctp {
+    color: #cad3f5;
+}
+.text-ctp-sub1 {
+    color: #b8c0e0;
+}
+.text-ctp-sub0 {
+    color: #a5adcb;
+}
+
+.bg-ctp-crust {
+    background-color: #181926;
+}
+.bg-ctp-mantle {
+    background-color: #1e2030;
+}
+.bg-ctp-base {
+    background-color: #24273a;
+}
+.bg-ctp-surface0 {
+    background-color: #363a4f;
+}
+.bg-ctp-surface1 {
+    background-color: #494d64;
+}
+.bg-ctp-surface2 {
+    background-color: #5b6078;
+}
+.bg-ctp-overlay0 {
+    background-color: #6e738d;
+}
+.bg-ctp-overlay1 {
+    background-color: #8087a2;
+}
+.bg-ctp-overlay2 {
+    background-color: #939ab7;
+}
