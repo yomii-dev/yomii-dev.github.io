@@ -35,3 +35,7 @@
 .bg-ctp-overlay2 {
     background-color: #939ab7;
 }
+
+.nav {
+    max-width: 8rem;
+}
