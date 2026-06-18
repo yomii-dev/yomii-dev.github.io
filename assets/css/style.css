@@ -1,42 +1,49 @@
+@import url("https://cdn.jsdelivr.net/npm/@catppuccin/palette@1.8.0/css/catppuccin.min.css");
+
 .text-ctp {
-    color: #cad3f5;
+    color: var(--ctp-macchiato-text);
 }
 .text-ctp-sub1 {
-    color: #b8c0e0;
+    color: var(--ctp-macchiato-subtext1);
 }
 .text-ctp-sub0 {
-    color: #a5adcb;
+    color: var(--ctp-macchiato-subtext0);
 }
 .text-ctp-mauve {
-    color: #c6a0f6;
+    color: var(--ctp-macchiato-mauve);
 }
 
 .bg-ctp-crust {
-    background-color: #181926;
+    background-color: var(--ctp-macchiato-crust);
 }
 .bg-ctp-mantle {
-    background-color: #1e2030;
+    background-color: var(--ctp-macchiato-mantle);
 }
 .bg-ctp-base {
-    background-color: #24273a;
+    background-color: var(--ctp-macchiato-base);
 }
 .bg-ctp-surface0 {
-    background-color: #363a4f;
+    background-color: var(--ctp-macchiato-surface0);
 }
 .bg-ctp-surface1 {
-    background-color: #494d64;
+    background-color: var(--ctp-macchiato-surface1);
 }
 .bg-ctp-surface2 {
-    background-color: #5b6078;
+    background-color: var(--ctp-macchiato-surface2);
 }
 .bg-ctp-overlay0 {
-    background-color: #6e738d;
+    background-color: var(--ctp-macchiato-overlay0);
 }
 .bg-ctp-overlay1 {
-    background-color: #8087a2;
+    background-color: var(--ctp-macchiato-overlay1);
 }
 .bg-ctp-overlay2 {
-    background-color: #939ab7;
+    background-color: var(--ctp-macchiato-overlay2);
+}
+
+body {
+    color: var(--ctp-macchiato-text);
+    background-color: var(--ctp-macchiato-base);
 }
 
 .nav {
@@ -57,5 +64,5 @@ a .logos {
 
 .contact-box:hover {
     transform: translateX(10px);
-    border-color: #c6a0f6;
+    border-color: var(--ctp-macchiato-mauve);
 }
