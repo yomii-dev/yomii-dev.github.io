@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body class="text-ctp bg-ctp-base">
+  <body class="text-ctp bg-ctp-base" data-bs-theme="dark">
     <div class="d-flex">
       <nav
         class="nav bg-ctp-crust p-4 vh-100 position-sticky top-0 flex-shrink-0"
@@ -27,22 +27,30 @@
 
         <div class="row g-4 g-5">
           <div class="col-6 d-flex flex-column gap-4">
-            <div class="bg-ctp-surface1 p-4 shadow">
-              <h2>hello there...</h2>
-              <p class="fs-5 text-ctp-sub1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Similique magnam rem ab a consectetur id, dolore odit facilis,
-                nihil quas illum fugit aspernatur tenetur maiores explicabo
-                perferendis perspiciatis ratione, sapiente in!
+            <div
+              class="card bg-ctp-surface1 p-4 shadow d-flex flex-column rounded-0 my-4 ms-5"
+            >
+              <h3 class="text-ctp-sub1 m-1">hello there...</h3>
+              <h1 class="align-self-center m-1">
+                <span class="text-ctp-mauve m-1"> Glen </span>
+                here :D
+              </h1>
+              <p class="text-ctp-sub0 align-self-end">
+                an
+                <span class="text-ctp"> Aspiring Software Developer </span>
               </p>
             </div>
 
-            <div class="bg-ctp-surface0 p-4 shadow" style="min-height: 16rem">
-              <h2>about me</h2>
-              <p class="fs-5 text-ctp-sub1">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
-                similique cumque et blanditiis rerum dolor odio adipisci velit
-                magnam labore libero aut vitae explicabo qui.
+            <div
+              class="bg-ctp-surface0 p-4 shadow card rounded-0 my-4 me-5"
+              style="min-height: 16rem"
+            >
+              <h2 class="text-ctp-sub1">about me</h2>
+              <p class="fs-5 text-ctp-sub0">
+                Curious by nature, I love to tinker with things I find
+                interesting. I get immense satisfaction from breaking down
+                complex systems, figuring out how they work, and building my own
+                solutions.
               </p>
             </div>
           </div>
@@ -79,16 +87,28 @@
                   href="https://github.com/yomii-dev"
                   target="_blank"
                 >
-                  <img src="assets/svg/github_dark.svg" alt="github" class="contact" />
+                  <img
+                    src="assets/svg/github_dark.svg"
+                    alt="github"
+                    class="contact"
+                  />
                 </a>
 
                 <!--Chore: make a linkedin already-->
                 <a
                   class="p-2 bg-ctp-surface1 shadow-sm w-50 align-self-start ms-3"
                   href="#"
-                  onclick="alert('Uhh this mf still doesn\'t have an account there yet...')"
+                  onclick="
+                  alert(
+                    'Uhh this mf still doesn\'t have an account there yet...',
+                  )
+                  "
                 >
-                  <img src="assets/svg/linkedin.svg" alt="linkedin" class="contact" />
+                  <img
+                    src="assets/svg/linkedin.svg"
+                    alt="linkedin"
+                    class="contact"
+                  />
                 </a>
 
                 <a
@@ -96,7 +116,11 @@
                   href="https://www.facebook.com/gabbadoot"
                   target="_blank"
                 >
-                  <img src="assets/svg/facebook-icon.svg" alt="facebook" class="contact" />
+                  <img
+                    src="assets/svg/facebook-icon.svg"
+                    alt="facebook"
+                    class="contact"
+                  />
                 </a>
 
                 <a
@@ -104,7 +128,11 @@
                   href="http://discord.com/users/481367822723710976"
                   target="_blank"
                 >
-                  <img src="assets/svg/discord.svg" alt="discord" class="contact" />
+                  <img
+                    src="assets/svg/discord.svg"
+                    alt="discord"
+                    class="contact"
+                  />
                 </a>
 
                 <div
@@ -128,7 +156,6 @@
                 >
                   <img src="assets/svg/phone.svg" alt="phone" class="contact" />
                 </a>
-
               </div>
             </div>
           </div>
