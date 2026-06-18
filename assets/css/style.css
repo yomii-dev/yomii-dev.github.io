@@ -39,3 +39,12 @@
 .nav {
     max-width: 8rem;
 }
+
+.contact {
+    width: 36px;
+    height: 36px;
+}
+
+.w-85 {
+    width: 85%;
+}

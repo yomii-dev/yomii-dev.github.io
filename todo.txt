@@ -1,3 +1,4 @@
-(A) 2026-06-18 Right contacts column +portfolio
-(B) 2026-06-18 tools (e.g. zed) +portfolio
-(B) 2026-06-18 skills +portfolio
+x 2026-06-18 2026-06-18 Right contacts column +portfolio
+(A) 2026-06-18 tools (e.g. zed) +portfolio
+(A) 2026-06-18 skills +portfolio
+(B) 2026-06-18 make a linked-in acc and link it lmaoaoao +portfolio
