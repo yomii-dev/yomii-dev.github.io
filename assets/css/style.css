@@ -43,11 +43,19 @@
     max-width: 8rem;
 }
 
-.contact {
+a .logos {
     width: 36px;
     height: 36px;
 }
 
-.w-85 {
-    width: 85%;
+.contact-box {
+    border: 2px solid transparent;
+    transition:
+        transform 300ms ease,
+        border-color 300ms ease;
+}
+
+.contact-box:hover {
+    transform: translateX(10px);
+    border-color: #c6a0f6;
 }
