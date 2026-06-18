@@ -1,0 +1,3 @@
+(A) 2026-06-18 Right contacts column +portfolio
+(B) 2026-06-18 tools (e.g. zed) +portfolio
+(B) 2026-06-18 skills +portfolio
