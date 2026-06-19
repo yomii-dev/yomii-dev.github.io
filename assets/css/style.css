@@ -73,12 +73,12 @@ h3,
 }
 
 .nav {
-    max-width: 8rem;
+    width: 5rem;
 }
 
-a .logos {
-    width: 36px;
-    height: 36px;
+.logos {
+    width: 48px;
+    height: 48px;
 }
 
 .header-text {
