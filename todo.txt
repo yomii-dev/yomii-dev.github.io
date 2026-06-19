@@ -6,4 +6,4 @@ x 2026-06-18 2026-06-18 Right contacts column +portfolio
 x 2026-06-18 2026-06-18 say u wanna be an aspiring software dev +portfolio
 (A) 2026-06-18 ur logo bro +portfolio
 (A) 2026-06-18 a favicon(just use ur logo) +portfolio
-(A) 2026-06-18 use better fonts bro +portfolio
+x 2026-06-19 2026-06-18 use better fonts bro +portfolio

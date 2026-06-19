@@ -1,4 +1,14 @@
 @import url("https://cdn.jsdelivr.net/npm/@catppuccin/palette@1.8.0/css/catppuccin.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;500&family=JetBrains+Mono:wght@700&display=swap");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    border-radius: 0 !important;
+    margin: 0;
+    padding: 0;
+}
 
 .text-ctp {
     color: var(--ctp-macchiato-text);
@@ -9,8 +19,12 @@
 .text-ctp-sub0 {
     color: var(--ctp-macchiato-subtext0);
 }
+
 .text-ctp-mauve {
     color: var(--ctp-macchiato-mauve);
+}
+.text-ctp-lavender {
+    color: var(--ctp-macchiato-lavender);
 }
 
 .bg-ctp-crust {
@@ -44,6 +58,18 @@
 body {
     color: var(--ctp-macchiato-text);
     background-color: var(--ctp-macchiato-base);
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+.nav-link,
+.btn {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    letter-spacing: -0.02em;
 }
 
 .nav {
@@ -53,6 +79,11 @@ body {
 a .logos {
     width: 36px;
     height: 36px;
+}
+
+.header-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
 }
 
 .contact-box {
