@@ -1,5 +1,5 @@
 x 2026-06-18 2026-06-18 Right contacts column +portfolio
-(B) 2026-06-18 tools (e.g. zed) +portfolio
+x 2026-06-25 2026-06-18 tools (e.g. zed) +portfolio
 x 2026-06-21 2026-06-18 skills(e.g. programming languages) +portfolio
 (B) 2026-06-18 make a linked-in acc and link it lmaoaoao +portfolio
 (C) 2026-06-18 just use devicons bro +portfolio

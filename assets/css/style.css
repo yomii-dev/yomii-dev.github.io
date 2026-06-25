@@ -97,3 +97,12 @@ h3,
     transform: translateX(10px);
     border-color: var(--ctp-macchiato-mauve);
 }
+
+.zoom-effect {
+    transition: transform 300ms ease;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.2);
+    background-color: var(--ctp-macchiato-mantle);
+}
