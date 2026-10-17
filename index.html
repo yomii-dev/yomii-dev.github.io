@@ -17,23 +17,49 @@
   </head>
 
   <body data-bs-theme="dark">
-    <div class="d-flex">
+    <div class="d-lg-flex">
       <nav
-        class="nav bg-ctp-crust vh-100 position-sticky top-0 flex-shrink-0 flex-column align-items-center py-4 nav-thin gap-5"
+        class="navbar navbar-expand-lg align-items-stretch bg-ctp-crust sticky-top sidebar-nav p-0"
       >
-        <img
-          src="assets/svg/logo.svg"
-          alt="logo"
-          class="logos p-2 bg-ctp-mantle"
-        />
+        <div
+          class="container-fluid flex-lg-column py-2 py-lg-4"
+        >
+          <a href="#" class="navbar-brand me-0">
+            <img
+              src="assets/svg/logo.svg"
+              alt="logo"
+              class="logos d-block p-2 bg-ctp-mantle"
+            />
+          </a>
 
-        <a href="https://yomii-dev.github.io/academic/index.html">
-          <img
-            src="assets/svg/suitcase.svg"
-            alt="Activities"
-            style="filter: invert(1)"
-          />
-        </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse flex-lg-grow-0" id="navbarNav">
+            <div class="navbar-nav flex-lg-column align-items-center">
+              <a
+                href="https://yomii-dev.github.io/academic/index.html"
+                class="nav-link"
+              >
+                <img
+                  src="assets/svg/suitcase.svg"
+                  alt="Activities"
+                  style="filter: invert(1)"
+                />
+                <span class="d-lg-none">Activities</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </nav>
 
       <!--Main Content-->

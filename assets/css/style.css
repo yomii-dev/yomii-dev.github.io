@@ -72,18 +72,27 @@ h3,
     letter-spacing: -0.02em;
 }
 
-.nav {
-    width: 5rem;
+@media (min-width: 992px) {
+    .sidebar-nav {
+        flex: 0 0 80px;
+        width: 80px;
+        height: 100vh;
+    }
+    .sidebar-nav .container-fluid {
+        height: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .logos {
     width: 48px;
-    height: 48px;
+    height: auto;
 }
 
 .header-text {
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 700;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
 }
 
 .contact-box {
